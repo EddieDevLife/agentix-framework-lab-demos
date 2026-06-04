@@ -77,4 +77,5 @@ python scripts/list_frameworks.py
 
 - Os 8 demos compartilham o mesmo contrato de comparacao para facilitar analise lado a lado.
 - O foco aqui e clareza didatica e equivalencia de cenario, nao esconder as diferencas entre frameworks.
+- Trate cada pasta em `frameworks/` como um projeto com ambiente proprio. Instalar todos os frameworks no mesmo `.venv` tende a gerar resolucao de dependencias lenta e fragil.
 - Algumas dependencias de frameworks mudam rapido. Se um demo exigir ajuste fino de versao, mantenha o README daquele framework como fonte de verdade local.
