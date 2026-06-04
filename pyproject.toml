@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentix-framework-lab-demos"
+version = "0.1.0"
+description = "Eight standalone Python demos for AI agent frameworks in Agentix."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["shared"]
+testpaths = ["tests"]

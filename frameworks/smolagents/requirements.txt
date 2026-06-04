@@ -1,0 +1,2 @@
+-r ../../requirements-common.txt
+smolagents[openai]>=1.13.0
